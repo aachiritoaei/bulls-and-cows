@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Bulls and Cows Reloaded</string>
+
+    <!--MAIN MENU-->
+    <string name="start">START GAME</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="highscore">HIGHSCORE</string>
+
+    <!--INSTRUCTIONS-->
+    <string name="instructions_title">Instructions:</string>
+    <string name="instructions_content">&#x20;&#x20;- The AI chooses a secret number of 4 digits.\n
+        - Through successive tries and hints, you have to guess the secret number.\n
+        - When you introduce the number, you will be given a hint consisting of two numbers: one for
+        bulls and one for cows. \n
+        - A bull means you\'ve guessed a digit and its position.\n
+        - A cow means you\'ve guessed a digit but it is in the wrong position. \n
+    </string>
+    <string name="instructions_example">Example: \n
+        - secret number: 1807 \n
+        - friends\'s guess: 7810 \n
+        - result: 1B3C (1 bull, 3 cows - the bull is 8, the cows are 0, 1, and 7) \n
+    </string>
+
+    <!--PLAY -->
+    <string name="play_check">CHECK</string>
+    <string name="play_show_solution">SHOW SOLUTION</string>
+    <string name="play_hint">Result..</string>
+    <string name="play_introduce_number">Introduce a number of 4 digits..</string>
+    <string name="play_introduce_name">Introduce a player name!</string>
+
+    <!--HIGHSCORE-->
+    <string name="highscore_title">HIGHSCORES:</string>
+
+    <!--OTHERS-->
+    <string name="back">BACK TO MAIN MENU</string>
+</resources>
