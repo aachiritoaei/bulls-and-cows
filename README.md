@@ -1,2 +1,2 @@
 # bulls-and-cows
-Baisc Android game.
+Basic Android game.
